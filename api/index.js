@@ -10,7 +10,7 @@ app.set('view engine', 'handlebars')
 app.use(express.static('public'))
 
 //routes
-const main = require('./routes/main')
+const main = require('../routes/main')
 
 app.get('/', (req, res, next) => {
     const data = {
