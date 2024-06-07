@@ -4,7 +4,7 @@
   "description": "testing my skills",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js -e js,html, handlebars"
+    "start": "nodemon index.js"
   },
   "author": "M.Anas",
   "license": "ISC",
