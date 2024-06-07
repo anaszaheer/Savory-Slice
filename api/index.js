@@ -5,12 +5,13 @@ const exphbs = require('express-handlebars')
 
 app.engine('handlebars', exphbs.engine())
 app.set('view engine', 'handlebars')
+app.set('views', path.join(__dirname, '../views'));
 
 //static folder
 app.use(express.static('public'))
 
 //routes
-const main = require('../routes/main')
+// const main = require('../routes/main')
 
 app.get('/', (req, res, next) => {
     const data = {
@@ -124,5 +125,5 @@ app.get('/', (req, res, next) => {
 
 // app.use('/', main)
 
-
-app.listen(port, console.log(`Listening on port: ${port}`))
+module.exports = app;
+// app.listen(port, console.log(`Listening on port: ${port}`))
