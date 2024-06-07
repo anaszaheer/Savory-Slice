@@ -2,7 +2,7 @@
   "name": "shop",
   "version": "1.0.0",
   "description": "testing my skills",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "nodemon api/index.js"
   },
