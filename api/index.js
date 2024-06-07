@@ -16,5 +16,5 @@ const main = require("../routes/main");
 
 app.use("/", main);
 
-// module.exports = app;
-app.listen(port, console.log(`Listening on port: ${port}`))
+module.exports = app;
+// app.listen(port, console.log(`Listening on port: ${port}`))
