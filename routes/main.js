@@ -18,7 +18,7 @@ router.get('/', (req, res, next) => {
         about:{
             header: "Welcome to our PizzaHouse.",
             description: "At our PizzaHouse, everything is home-made and we try to have the richest ingredients that we can find. The most fresh and tasty pizza is made here for our customers. Send your orders as early as 2 days so we can make the best food for you.",
-            pizzaImage:"images/pizza2.jpg"
+            pizzaImage:"images/pizza1.jpg"
         },
         team:{
             subHeader:"Who is Involved?",
