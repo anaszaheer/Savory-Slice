@@ -8,11 +8,11 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 router.get('/', (req, res, next) => {
     const data = {
-        title: "Pizza House",
+        title: "Savory Slice",
         home:{
-            description: "Welcome to my Pizza House!. Everything is home made & fresh. We hope you enjoy our food.",
+            description: "Welcome to Savory Slice!. Everything is home made & fresh. We hope you enjoy our food.",
             header:"Eat Fresh <br> & Home-Made Pizza.",
-            subtext:"At our Pizza House, we only make food with the freshest ingredients to delight your taste buds.",
+            subtext:"At Savory Slice, we only make food with the freshest ingredients to delight your taste buds.",
             pizzaImage:"images/pizza.jpg"
         },
         about:{
@@ -24,7 +24,7 @@ router.get('/', (req, res, next) => {
             subHeader:"Who is Involved?",
             header: "Words of Chef",
             description:"Our goal is to cook the best/tastiest food we can. Food that would bring delight to our customer's taste buds.",
-            name:"~ Pizza House"
+            name:"~ Savory Slice"
         }
     }
     var pizza = [
